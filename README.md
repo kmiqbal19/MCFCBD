@@ -7,7 +7,7 @@ MCFCBD
 ![App Screenshot](https://i.ibb.co/jfM1H4B/ezgif-4-f99b75562e.gif)
 
 ## DOCKER
-docker compose up
+`docker compose up`
 
 ## Authors
 
