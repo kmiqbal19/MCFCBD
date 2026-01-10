@@ -1,0 +1,10 @@
+version : "3.9"
+
+services:
+  manchester-club:
+    container_name: "mcfcbd"
+    image: kmiqbal19/manchester-club:latest
+    ports:
+      - "3000:80"
+    restart: always
+
