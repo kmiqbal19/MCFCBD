@@ -10,7 +10,7 @@ jobs:
       - name: Setup Node Environment
         uses: actions/setup-node@v6.2.0
         with: 
-          node-version: 18.x
+          node-version: 16.x
       - name: Install Dependencies
         run: npm install
       - name: Build App
