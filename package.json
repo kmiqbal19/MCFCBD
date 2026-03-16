@@ -1,1 +1,1 @@
-{"name": "your-project-name","version": "1.0.0","dependencies": {"locomotive-scroll": "^4.0.2"}}
+{\n  "name": "your-package-name",\n  "version": "1.0.0",\n  "dependencies": {\n    "existing-dependency-1": "^1.0.0",\n    "existing-dependency-2": "^1.0.0",\n    "locomotive-scroll": "^4.0.2"\n  }\n}
