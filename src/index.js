@@ -1,8 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import App from "./App";
+// Initialize Locomotive Scroll
+import LocomotiveScroll from 'locomotive-scroll';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('.js-scroll'),
+  smooth: true,
+});
